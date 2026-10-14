@@ -1,1 +1,179 @@
 # vrtechsolutions-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VR Tech Solutions | IT Services</title>
+<meta name="description" content="VR Tech Solutions provides website development, software solutions and digital marketing services.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080808;color:#fff;line-height:1.6}
+:root{--gold:#d4af37;--dark:#080808;--card:#151515}
+header{padding:18px 7%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;border-bottom:1px solid #38301a}
+.logo{font-size:24px;font-weight:bold;color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin:0 8px;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{text-align:center;padding:95px 20px 85px;background:radial-gradient(ellipse at top,#382b08,#080808 65%)}
+.tag{color:var(--gold);letter-spacing:3px;font-size:13px}
+h1{font-size:clamp(35px,7vw,64px);line-height:1.15;margin:20px 0}
+h1 span{color:var(--gold)}
+.hero p{max-width:650px;margin:0 auto 28px;color:#ccc}
+.btn{display:inline-block;background:var(--gold);color:#080808;text-decoration:none;font-weight:bold;padding:13px 22px;border-radius:5px;margin:5px}
+.btn-outline{border:1px solid var(--gold);color:var(--gold);background:transparent}
+section{padding:65px 7%}
+.section-title{text-align:center;font-size:32px;margin-bottom:12px}
+.section-title span{color:var(--gold)}
+.subtitle{text-align:center;color:#aaa;margin-bottom:35px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:var(--card);padding:25px;border:1px solid #39301a;border-radius:10px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:var(--gold)}
+.icon{font-size:32px}
+.card h3{color:var(--gold);margin:12px 0}
+.card p,.about p{color:#bbb}
+.about{background:#101010;text-align:center}
+.about p{max-width:750px;margin:15px auto}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.contact-info p{margin:15px 0;color:#ddd;overflow-wrap:anywhere}
+.contact-info a{color:var(--gold)}
+form{background:var(--card);padding:24px;border:1px solid #39301a;border-radius:10px}
+label{display:block;margin:12px 0 5px;color:#ddd}
+input,select,textarea{width:100%;padding:12px;border:1px solid #555;background:#090909;color:white;border-radius:5px;font:inherit}
+textarea{min-height:100px;resize:vertical}
+button{border:0;cursor:pointer;font-size:16px;width:100%;margin-top:18px}
+.note{font-size:12px;color:#aaa;margin-top:12px}
+footer{text-align:center;padding:25px;background:#050505;color:#aaa;border-top:1px solid #39301a}
+footer span{color:var(--gold)}
+@media(max-width:600px){header{justify-content:center;text-align:center}nav{line-height:2.3}.hero{padding:65px 18px}section{padding:50px 6%}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">VR TECH SOLUTIONS</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="tag">INNOVATION • TECHNOLOGY • GROWTH</div>
+  <h1>Your Business,<br><span>Our Technology</span></h1>
+  <p>Smart digital solutions to help businesses build their online presence, improve productivity and grow.</p>
+  <a class="btn" href="#contact">Get a Free Consultation</a>
+  <a class="btn btn-outline" href="#services">Explore Services</a>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Our <span>Services</span></h2>
+  <p class="subtitle">Technology solutions for your business needs.</p>
+  <div class="services">
+    <article class="card">
+      <div class="icon">💻</div>
+      <h3>Website Development</h3>
+      <p>Modern, responsive websites designed to present your business professionally on mobile and desktop.</p>
+    </article>
+    <article class="card">
+      <div class="icon">⚙️</div>
+      <h3>Software & IT Services</h3>
+      <p>Practical technology solutions and IT support to help your business work efficiently.</p>
+    </article>
+    <article class="card">
+      <div class="icon">📱</div>
+      <h3>Digital Marketing</h3>
+      <p>Digital promotion strategies to help businesses reach customers and build their online presence.</p>
+    </article>
+    <article class="card">
+      <div class="icon">🤝</div>
+      <h3>Business Support</h3>
+      <p>Digital assistance and technology guidance for small businesses and growing teams.</p>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2 class="section-title">About <span>Us</span></h2>
+  <p>VR Tech Solutions aims to make technology simpler and more accessible for businesses. Our focus is on useful digital services, professional support and solutions tailored to customer needs.</p>
+  <p>Contact us to discuss your project and requirements.</p>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Let's <span>Connect</span></h2>
+  <p class="subtitle">Tell us about your project or service requirements.</p>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p>📧 Email: <a href="mailto:vrtechsolutions@gmail.com">vrtechsolutions@gmail.com</a></p>
+      <p>📱 WhatsApp: <a href="https://wa.me/918970240304" target="_blank" rel="noopener">+91 89702 40304</a></p>
+      <p>💬 Click the WhatsApp link to contact us directly.</p>
+    </div>
+
+    <form id="enquiryForm">
+      <h3>Customer Enquiry</h3>
+      <label for="name">Full Name</label>
+      <input id="name" name="name" required maxlength="100" placeholder="Enter your name">
+
+      <label for="phone">Mobile Number</label>
+      <input id="phone" name="phone" type="tel" required pattern="[0-9]{10}" maxlength="10" inputmode="numeric" placeholder="10-digit mobile number">
+
+      <label for="service">Select Service</label>
+      <select id="service" name="service" required>
+        <option value="">Choose a service</option>
+        <option>Website Development</option>
+        <option>Software & IT Services</option>
+        <option>Digital Marketing</option>
+        <option>Business Support</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Project Details</label>
+      <textarea id="message" name="message" maxlength="1000" placeholder="Tell us what you need"></textarea>
+
+      <button class="btn" type="submit">Send Enquiry on WhatsApp</button>
+      <p class="note">Your enquiry will open in WhatsApp. Please press Send in WhatsApp to submit it. This form does not automatically save enquiries or send an email.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> <span>VR TECH SOLUTIONS</span>. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+
+document.getElementById("enquiryForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value.trim();
+
+  if (!/^[0-9]{10}$/.test(phone)) {
+    alert("Please enter a valid 10-digit mobile number.");
+    return;
+  }
+
+  const text =
+    "VR Tech Solutions - Customer Enquiry\n\n" +
+    "Name: " + name + "\n" +
+    "Customer Phone: " + phone + "\n" +
+    "Service: " + service + "\n" +
+    "Details: " + (message || "Not provided");
+
+  window.open(
+    "https://wa.me/918970240304?text=" + encodeURIComponent(text),
+    "_blank"
+  );
+});
+</script>
+
+</body>
+</html>
